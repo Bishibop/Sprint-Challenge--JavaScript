@@ -41,7 +41,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation: They are both declared in the same lexical scope of `myFunction`. The contents of `nestedFunction` has access to the lexical scope of all of it's parent functions and the global scope.
+// Explanation: They are both declared in the same lexical scope of `myFunction`. The contents of `nestedFunction` has access to all of it's parent functions and the global scope.
 
 
 const external = "I'm outside the function";
